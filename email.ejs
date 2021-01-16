@@ -1,0 +1,9 @@
+<ul>
+    <%for(var i=0;i<list.length;i++) { %>
+        <li>
+            <span><%= list[i].name %></span> 
+            <span style='margin-left: 10px;'>单位净值日涨幅为: <%= list[i].dayGrowth %>%</span>
+        </li>
+    <%}%>
+</ul>
+<div><%= tip %></div>
